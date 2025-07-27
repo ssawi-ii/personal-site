@@ -28,10 +28,6 @@ span {
 }
 
 /*footer*/
-.container {
-	margin-right: 50px;
-}
-
 .contact {
 	display: flex;
 	flex-direction: column;
