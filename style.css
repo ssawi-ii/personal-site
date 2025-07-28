@@ -1,5 +1,4 @@
-/*heading*/
-.gradient-background {
+/*.gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;
@@ -15,19 +14,57 @@
   100% {
     background-position: 0% 50%;
   }
+}*/
+
+/*heading*/
+#heading {
+  background-color: #191265;
 }
 
 span {
-	color: aliceblue;
+	color: #EBEBDF;
 }
 
+
 /*content*/
+#content {
+  background-color: #EBEBDF;
+}
+
 .picture_cat {
 	height: 200px;
 	border-radius: 50%;
 }
 
+.container {
+  color: #191265;
+}
+
+.intro {
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.text-body-emphasis {
+  color: #191265 !important;
+}
+
+.detail {
+  color: #191265;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
 /*footer*/
+#footer {
+  background-color: #191265;
+}
+
 .contact {
 	display: flex;
 	flex-direction: column;
@@ -43,5 +80,5 @@ span {
 }
 
 .contact-me {
-	margin-bottom: 15px;
+	margin-bottom: 6px;
 }
