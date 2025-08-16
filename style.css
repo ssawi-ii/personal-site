@@ -89,6 +89,22 @@ span {
   border-radius: 30px;
 }
 
+/*content > education*/
+.education {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/*content > carousel*/
+.carousel-inner {
+  height: 500px;
+  background-color: #191265;
+}
+
+.carousel-item {
+  height: 500px;
+} 
 
 /*footer*/
 #footer {
