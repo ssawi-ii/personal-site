@@ -76,8 +76,8 @@ span {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 500px;
-  gap: 35px;
+  grid-template-rows: auto 500px;
+  gap: 30px;
 }
 
 .item-3 {
@@ -94,17 +94,13 @@ span {
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-/*content > carousel*/
-.carousel-inner {
-  height: 500px;
-  background-color: #191265;
-}
 
-.carousel-item {
-  height: 500px;
-} 
+/*content > skills and tools*/
+
 
 /*footer*/
 #footer {
