@@ -84,6 +84,10 @@ span {
   grid-column: span 2;
 }
 
+.item-4 {
+  grid-column: span 2;
+}
+
 .grid-item {
   border:#191265 solid;
   border-radius: 30px;
@@ -102,6 +106,10 @@ span {
 /*content > skills and tools*/
 .skills {
   color: #BB3E00;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-right: 3%;
 }
 
 /*content > projects and experience*/
@@ -113,6 +121,17 @@ span {
   margin-right: 2.5%;
   margin-bottom: 1%;
   color: #191265;
+}
+
+/*content > links*/
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1.5%;
+  color: #1F509A;
 }
 
 
