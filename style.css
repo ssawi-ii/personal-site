@@ -76,7 +76,7 @@ span {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 500px;
+  grid-template-rows: auto;
   gap: 30px;
 }
 
@@ -96,10 +96,24 @@ span {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
+  color: #191265;
 }
 
-
 /*content > skills and tools*/
+.skills {
+  color: #BB3E00;
+}
+
+/*content > projects and experience*/
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1%;
+  color: #191265;
+}
 
 
 /*footer*/
