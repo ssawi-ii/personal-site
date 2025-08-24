@@ -105,7 +105,7 @@ span {
 
 /*content > skills and tools*/
 .skills {
-  color: #BB3E00;
+  color: #1F509A;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
