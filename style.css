@@ -157,3 +157,14 @@ span {
 .contact-me {
 	margin-bottom: 6px;
 }
+
+/*responsive for mobile*/
+@media (max-width: 480px) {
+  .grid-container {
+    display: block;
+  }
+
+  .grid-item {
+    margin-bottom: 25px;
+  }
+}
